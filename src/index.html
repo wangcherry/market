@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>营销大屏</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="Author" content="netease">
+    <meta name="Version" content="1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="layout">
+        <div class="img-wrap img-wrap1"><img src="./img/banner1.png" alt=""></div>
+
+        <!-- 爆款推荐 -->
+        <div class="part part1"></div>
+
+        <div class="img-wrap img-wrap2"><img src="./img/banner2.png" alt=""></div>
+
+        <!-- 新品推荐 -->
+        <div class="part part2"></div>
+
+        <div class="img-wrap img-wrap3"><img src="./img/banner3.png" alt=""></div>
+
+        <!-- 三石哥推荐 -->
+        <div class="part part3"></div>
+    </div>
+
+    <!-- 领取优惠券 -->
+    <div class="dialog hide coupon">
+        <div class="dialog-overlay"></div>
+        <div class="dialog-content coupon-content">
+            <div class="img-wrap"><img src="./img/coupon/coupon.png" alt=""></div>
+            <div class="img-wrap close margin-top-20 text-center"><img src="./img/coupon/close.png" alt=""></div>
+        </div>
+    </div>
+
+    <!-- 查看评论 -->
+    <div class="dialog hide comment">
+        <div class="dialog-overlay"></div>
+        <div class="dialog-content comment-content">
+            <div class="comment-head">
+                <div class="img-wrap close"><img src="./img/comment/close.png" alt=""></div>
+                <div class="title text-center">顾客评论</div>
+                <div class="tip text-center margin-top-10">
+                    <div class="img-wrap"><img src="./img/comment/slide.gif" alt=""></div> <span class="vertical-align-middle">滑动屏幕查看更多</span>
+                </div>
+            </div>
+            <div class="contain"><div class="box-wrap"></div></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/yxStat.js"></script>
+    <script type="text/javascript" src="./js/goods-info.js"></script>
+    <script type="text/javascript" src="./js/comment-info.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-right-30 {
+    margin-right: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.hide {
+    display: none;
+}
+
+// 为了屏幕适配，且不出现闪烁
+body {
+    visibility: hidden;
+}

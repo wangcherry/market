@@ -1,0 +1,27 @@
+{
+  "name": "marker",
+  "version": "1.0.0",
+  "description": "Marketing big screen",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w --output-style compact ./src/style/scss/index.scss ./src/css/index.css",
+    "build": "node build",
+    "dev": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.mail.netease.com/yanxuan-supplychain/yanxuan-store-market"
+  },
+  "author": "wangying",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "koa": "^2.6.2",
+    "koa-static": "^5.0.0",
+    "node-sass": "^4.10.0",
+    "opn": "^5.4.0",
+    "xlsx": "^0.14.1"
+  },
+  "dependencies": {}
+}
